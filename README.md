@@ -8,7 +8,7 @@
   3. git push -u origin master
  - 删除暂存区文件
   1. git reset HEAD <file>
-  2.git push
+  2. git push
 ## vue-awesome-swiper
   - 安装
  cnpm i vue-awesome-swiper --save
