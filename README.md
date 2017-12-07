@@ -11,7 +11,7 @@
 ## vue-awesome-swiper
 - 安装
 cnpm i vue-awesome-swiper --save
-`<template>
+``<template>
 	<div class='slidefull'>
 		<swiper :options='swiperOption' ref='mySwiper' >
 		    <swiper-slide v-for='(item,index) in imgs'><div class='box' :key='index'>I'm Slide {{index}} <img :src='item.image_url' alt='' ></div></swiper-slide>
@@ -73,4 +73,4 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
 		}
 	}
 }
-</style>`
+</style>``
