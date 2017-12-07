@@ -11,7 +11,7 @@
 ## vue-awesome-swiper
 - 安装
 cnpm i vue-awesome-swiper --save
- '<template>
+ "<template>
 	<div class="slidefull">
 		<swiper :options="swiperOption" ref="mySwiper" >
 		    <swiper-slide v-for="(item,index) in imgs"><div class="box" :key="index">I'm Slide {{index}} <img :src="item.image_url" alt="" ></div></swiper-slide>
@@ -25,7 +25,8 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
   export default {
     data() {
     	return {
-	      	swiperOption: {//以下配置可以去swiper官网看api，链接http://www.swiper.com.cn/api/
+	//以下配置可以去(swiper官网)看api[链接http://www.swiper.com.cn/api/]
+	      	swiperOption: {
 	          	direction: 'vertical',
 		        slidesPerView: 1,
 		        autoplay:true,
@@ -72,4 +73,4 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper'
 		}
 	}
 }
-</style>'
+</style>"
