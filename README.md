@@ -12,9 +12,9 @@
 - 安装
 cnpm i vue-awesome-swiper --save
  "<template>
-	<div class="slidefull">
-		<swiper :options="swiperOption" ref="mySwiper" >
-		    <swiper-slide v-for="(item,index) in imgs"><div class="box" :key="index">I'm Slide {{index}} <img :src="item.image_url" alt="" ></div></swiper-slide>
+	<div class='slidefull'>
+		<swiper :options='swiperOption' ref='mySwiper' >
+		    <swiper-slide v-for='(item,index) in imgs'><div class='box' :key='index'>I'm Slide {{index}} <img :src='item.image_url' alt='' ></div></swiper-slide>
 	  	</swiper>
 	</div>
 </template>
