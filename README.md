@@ -11,5 +11,5 @@
   2.git push
 ## vue-awesome-swiper
   - 安装
-   cnpm i vue-awesome-swiper --save
+ cnpm i vue-awesome-swiper --save
  
