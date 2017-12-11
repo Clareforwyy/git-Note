@@ -6,5 +6,5 @@
 2. git commit -m 'message'
 3. git push -u origin master
 - 删除暂存区文件
-1. git reset HEAD <file>
+1. git reset HEAD filename
 2. git push
